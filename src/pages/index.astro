@@ -11,13 +11,9 @@ import AudioBook from '../components/AudioBook.astro';
 import { sections } from '../config.json';
 ---
 
-<Layout title='Book Title'>
+<Layout title='Bookria'>
   <HeroSection />
   <WhyReadThisBook />
-  {sections.showBuyAudiobook && <AudioBook />}
   <Interviews />
-  {sections.showDownloadFreeChapter && <FreeChapter />}
-  <WhatsInside />
   <Buy />
-  <Footer />
 </Layout>

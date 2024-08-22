@@ -8,73 +8,42 @@
     "showAboutAuthor": true
   },
   "seo": {
-    "title": "Livro Chapada do Corisco por Alisson Carvalho",
-    "description": "Um remador solitário e a tragédia que maculou a história da vila de pescadores",
-    "canonical": "https://www.livrochapadadocorisco.com",
-    "locale": "pt_BR",
-    "image": "/og_image_800_600_2.png"
+    "title": "Book 'Mastering Fate' by Dante Serefino",
+    "description": "A guide to Tarot that empowers you to shape your destiny, combining ancient wisdom with practical techniques for self-discovery and decision-making.",
+    "canonical": "https://bookria.co"
   },
   "theme": {
-    "color": "#f59e0b"
+    "color": "#ff04db"
   },
   "author": {
-    "name": "Alisson Carvalho",
-    "email": "alissonmssc@gmail.com",
-    "location": "Teresina, Piauí",
-    "twitterUrl": "https://twitter.com/rascunholiquido",
-    "instagramUrl": "https://www.instagram.com/rascunhosliquidos/",
-    "linkedinUrl": "https://www.linkedin.com/in/alisson-carvalho-854bb0131/"
+    "name": "Dante Serafino",
+    "email": "contact@bookria.co",
+    "location": "Dante Serafino"
   },
   "book": {
-    "title": "Chapada do Corisco",
+    "title": "Mastering Fate: Unleashing Your Future with Tarot",
     "isbn": "978-65-89313-54-0",
     "releaseDate": "2022-03-28",
     "price": "34.9",
-    "currency": "BRL",
-    "buyPhysicalUrl": "https://www.arteimpressaeditora.com.br/product-page/chapada-do-corisco-alisson-carvalho",
-    "buyDigitalUrl": "https://www.amazon.com.br/Chapada-do-Corisco-Alisson-Carvalho-ebook/dp/B09WTD7RW9/",
-    "buyAudiobookUrl": "#"
+    "currency": "USD",
+    "buyPhysicalUrl": "https://danteseraf.gumroad.com/l/masteringfate",
+    "buyDigitalUrl": "https://danteseraf.gumroad.com/l/masteringfate"
   },
   "sectionPrices": {
-    "priceLeft": {
-      "title": "Audiobook",
-      "amount": {
-        "decimal": 14,
-        "cents": 95
-      },
-      "details": ["3+ Horas", "Formato MP3"],
-      "button": {
-        "label": "Em gravação",
-        "url": "#"
-      }
-    },
     "priceMain": {
-      "title": "Livro físico",
+      "title": "'Mastering Fate' E-Book",
       "amount": {
-        "decimal": 34,
-        "cents": 90
-      },
-      "details": ["164 Páginas", "Capa fosca", "Papel creme"],
-      "button": {
-        "label": "Compre na Arte Impressa",
-        "url": "https://www.arteimpressaeditora.com.br/product-page/chapada-do-corisco-alisson-carvalho"
-      },
-      "tagTitle": {
-        "title": "Mais Popular",
-        "cssClass": "text-book-gray bg-book-theme"
-      }
-    },
-    "priceRight": {
-      "title": "E-book",
-      "amount": {
-        "decimal": 13,
+        "decimal": 12.99,
         "cents": 99
       },
-      "previousAmount": "",
-      "details": ["164 Páginas", "Formato MOBI (Amazon)"],
+      "details": ["164 Pages", "15 Chapters", "Lifetime Updates"],
       "button": {
-        "label": "Compre na Amazon",
-        "url": "https://www.amazon.com.br/Chapada-do-Corisco-Alisson-Carvalho-ebook/dp/B09WTD7RW9/"
+        "label": "Get It Now",
+        "url": "https://danteseraf.gumroad.com/l/masteringfate"
+      },
+      "tagTitle": {
+        "title": "Banned Version",
+        "cssClass": "text-book-gray bg-book-theme"
       }
     }
   }

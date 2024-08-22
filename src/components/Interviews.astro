@@ -37,10 +37,17 @@ const interviews: Array<Interviews> = [
 ];
 ---
 
+<head>
+  <title>What Readers Are Saying About 'Mastering Fate' by Dante Serafino</title>
+  <meta name="description" content="Discover what readers are saying about 'Mastering Fate' by Dante Serafino. Read reviews and explore the profound impact of this forbidden book on personal transformation and Tarot wisdom.">
+  <meta name="keywords" content="Mastering Fate, Dante Serafino, Tarot reviews, reader testimonials, forbidden wisdom, personal transformation, book reviews, Tarot insights">
+  <meta name="robots" content="index, follow">
+</head>
+
 <div class='bg-white'>
   <div class='max-w-screen-xl mx-auto pt-16 pb-4 px-4'>
     <h2 class='text-3xl leading-9 font-extrabold text-gray-900'>
-      Listen to those that already read it...
+      What Readers Are Saying About 'Mastering Fate'...
     </h2>
     <div class='mt-6 pt-10'>
       {
@@ -49,7 +56,7 @@ const interviews: Array<Interviews> = [
             <Image
               class='w-40 h-40 rounded-full mr-8'
               src={interview.imageUrl}
-              alt={interview.name}
+              alt={`Review by ${interview.name}`}
               width={160}
               height={160}
             />
@@ -62,6 +69,7 @@ const interviews: Array<Interviews> = [
                   class='underline text-book-gray hover:bg-book-yellow transition ease-in-out duration-300'
                   href={interview.company.url}
                   target='_blank'
+                  rel='noopener noreferrer'
                 >
                   {interview.company.name}
                 </a>
@@ -69,15 +77,16 @@ const interviews: Array<Interviews> = [
               <p class='text-base text-gray-600 mb-1 font-body'>
                 {interview.summary}
               </p>
-              <p class='text-sm italic text-gray-500  font-body'>
+              <p class='text-sm italic text-gray-500 font-body'>
                 {interview.location}
               </p>
               <div class='flex flex-row my-2'>
                 {interview.githubUrl && (
                   <a
-                    title='Github link'
+                    title='Github Profile'
                     href={interview.githubUrl}
                     target='_blank'
+                    rel='noopener noreferrer'
                   >
                     <Github />
                   </a>
@@ -85,9 +94,10 @@ const interviews: Array<Interviews> = [
 
                 {interview.twitterUrl && (
                   <a
-                    title='Twitter link'
+                    title='Twitter Profile'
                     href={interview.twitterUrl}
                     target='_blank'
+                    rel='noopener noreferrer'
                   >
                     <Twitter />
                   </a>
@@ -95,9 +105,10 @@ const interviews: Array<Interviews> = [
 
                 {interview.linkedinUrl && (
                   <a
-                    title='Linkedin link'
+                    title='LinkedIn Profile'
                     href={interview.linkedinUrl}
                     target='_blank'
+                    rel='noopener noreferrer'
                   >
                     <Linkedin />
                   </a>
@@ -105,9 +116,10 @@ const interviews: Array<Interviews> = [
 
                 {interview.mediumUrl && (
                   <a
-                    title='Medium link'
+                    title='Medium Profile'
                     href={interview.mediumUrl}
                     target='_blank'
+                    rel='noopener noreferrer'
                   >
                     <Medium />
                   </a>
